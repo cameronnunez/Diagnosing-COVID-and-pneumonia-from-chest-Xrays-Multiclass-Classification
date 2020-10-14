@@ -16,8 +16,6 @@ small minority of COVID samples, the common oversampling technique SMOTE (Synthe
 under sampling of the other classes, as recommended by the creators of the SMOTE. This improved weighted
 categorization accuracy
 
-## Progress Summary
-
 ------------------------
 ### Dependencies
 
