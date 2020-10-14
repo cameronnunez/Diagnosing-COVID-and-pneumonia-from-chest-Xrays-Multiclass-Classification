@@ -1,1 +1,1 @@
-# Diagnosing-patient-chest-X-rays-Multiclass-Classification
+# Diagnosing patient chest X rays: Multiclass Classification
