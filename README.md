@@ -6,7 +6,7 @@ The data includes 1127 chest xrays drawn from several different sources (of vary
 Several algorithms were applied: support-vector machines (SVM), logistic regression, k-nearest neighbors, decision trees, and
 random forests. The algorithms with the best weighted accuracies on the validation set were
 to be determined as the best classifiers. These classifiers were the SVM and k-nearest neighbor classifiers.
-The SVM classifier has a polynomial kernel with degree 3. The k-nearest neighbors classifier used the ball
+The optimal SVM classifier has a polynomial kernel with degree 3. The optimal k-nearest neighbors classifier used the ball
 tree nearest-neighbor algorithm with k=5 and a minkowski distance metric with p = 3. The best weighted accuracy was achieved by the KNN classifier, achieving around 72% balanced accuracy. The random forest classifier using
 100 estimators performed weak across many metrics. However, this could be due to the fact that a higher
 number of estimators were not used.
