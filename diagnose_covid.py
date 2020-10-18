@@ -24,7 +24,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.neural_network import MLPClassifier
 
 # number of images in data
-n = len(pd.read_csv('train.csv'))
+n = len(pd.read_csv('data.csv'))
 
 # Base dimensions to resize images to
 dim = (291, 238)
@@ -37,7 +37,7 @@ bar = progressbar.ProgressBar(maxval=n, \
 bar.start()
 for i in range(n):
 
-    img = cv.imread('train/train/img-' + str(i) + '.jpeg')
+    img = cv.imread('data/img-' + str(i) + '.jpeg')
 
     # apply histogram equalization
     res = exposure.equalize_hist(img)
