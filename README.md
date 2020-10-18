@@ -12,7 +12,7 @@ number of estimators were not used.
 With exception to the COVID samples, the data is balanced. To fix the imbalance due to the
 small minority of COVID samples, the common oversampling technique SMOTE (Synthetic Minority Over-sampling Technique) was used to increase the number COVID samples; this was followed up by random
 under sampling of the other classes, as recommended by the creators of the SMOTE. This improved weighted
-categorization accuracy
+categorization accuracy.
 
 ------------------------
 ### Dependencies
