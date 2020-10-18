@@ -17,9 +17,9 @@ categorization accuracy
 ------------------------
 ### Dependencies
 
-imblearn
-pandas
-skopt
+- imblearn
+- pandas
+- skopt
 
 
 &nbsp;
