@@ -1,4 +1,4 @@
-# Diagnosing-patient-chest-Xrays-Multiclass-Classification
+# Diagnosing-COVID-and-pneumonia-from-chest-Xrays-Multiclass-Classification
 This project attempts to diagnose patients with COVID-19, viral pneumonia, and bacterial pneumonia from images of chest X-rays. The goal is to develop a multiclass classifier that achieves good weighted categorization accuracy on a set of unseen examples.
 
 The data includes 1127 chest xrays drawn from several different sources (of varying size and quality) and a set of labels indicating whether each patient was healthy or diagnosed with bacterial pneumonia, viral pneumonia, or COVID-19. A 70:30 split was used to test the classifiers on the holdout validation set. For dimensionality reduction, principal component analysis (PCA) was used. Non-linear embedding approaches (multidimensional scaling and Isomap) were attempted but yielded lower accuracies.
